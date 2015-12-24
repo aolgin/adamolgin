@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Adam Olgin - Projects</title>
+    <title>Adam Olgin - Portfolio</title>
 
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -19,36 +19,31 @@
     <!-- CSS and JS links -->
 
     <!-- Stylesheets!-->
-    <link rel="stylesheet" href="resources/css/main.css" />
+    <link rel="stylesheet" href="./resources/css/main.css" />
+    <link rel="stylesheet" href="./resources/css/nav.css" />
+    <!--
     <link rel="stylesheet" href="resources/css/bootstrap.css" />
     <link rel="stylesheet" href="resources/css/bootstrap-theme.css" />
     <link rel="stylesheet" href="resources/css/ionicons.css" />
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Noto+Sans|Antic+Slab|Lobster|Kreon:400,700|Open+Sans|Bree+Serif|Oxygen|Lato' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Noto+Sans|Antic+Slab|Lobster|Kreon:400,700|Open+Sans|Bree+Serif|Oxygen|Lato' type='text/css'> -->
   </head>
 
   <body>
-    <!-- nav bar in hamburger menu -->
-    <nav class="navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+    <!-- NAV BAR -->
+    <header class="top">
           <span id="nav-brand">Adam Olgin</span>
-        </div>
+    </header>
+    <nav class="navbar-fixed-top top" role="navigation">
+      <div class="container">
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav" id="nav">
-            <li><a href="./index.html">HOME</a>
+            <li><a href="index.html">HOME</a>
             </li>
-            <li><a href="">PROJECTS</a>
+            <li><a href="#">PORTFOLIO</a>
             </li>
-            <li onclick="resumeRedirect()"><a href="./resources/resume.txt">RESUME</a></li>
+            <li onclick="resumeRedirect()"><a href="resources/resume.txt">RESUME</a></li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
       </div>
     </nav>
 
@@ -117,56 +112,47 @@
         </div>
       </div>
     </div> <!-- content-pane -->
-
-
-    <footer> </footer>
-
-    <!-- ================== FUTURE FOOTER ================================ -->
-  	<!-- Contact Info -->
-  	<div class="section sect-c">
-  		<div class="container">
-  			<div class="row" id="contact-me">
-  				<p class="headers-text">Get In Touch</p>
-  				<div class="contact-icon">
-  					<ul class="contact-list">
+    
+    <!-- FOOTER -->
+    <footer id="footer">
+      <p>FOOTER HERE</p>
+      <div class="container">
+        <div class="row" id="contact-me">
+          <div class="contact-icon">
+            <ul class="contact-list">
 
               <!-- May need to remove the text from in between the <p> tags -->
-  						<a class="contact-link" href="mailto:aolgin@ccs.neu.edu">
-  							<li class="contact-mount">
-  								<p class="contact-icon icon ion-ios7-email">Email</p>
-  							</li>
-  						</a>
-
-  						<a class="contact-link" href="https://github.com/aolgin">
-  							<li class="contact-mount">
-  								<p class="contact-icon icon ion-social-github">Github</p>
-  							</li>
-  						</a>
-
-  						<a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">
-  							<li class="contact-mount">
-  								<p class="contact-icon icon ion-social-linkedin">LinkedIn</p>
-  							</li>
-  						</a>
-
-              <!-- FIXME will need to be a downloadable link here -->
-              <a class="contact-link" href="/resume.pdf">
+              <a class="contact-link" href="mailto:aolgin@ccs.neu.edu">
                 <li class="contact-mount">
-                	<p class="contact-icon icon ion-social-resume">Resume</p>
+                  <p class="contact-icon icon ion-ios7-email">Email</p>
                 </li>
               </a>
-  					</ul>
 
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+              <a class="contact-link" href="https://github.com/aolgin">
+                <li class="contact-mount">
+                  <p class="contact-icon icon ion-social-github">Github</p>
+                </li>
+              </a>
 
-    <div id="footer">
-      <div class="container"> </div>
-    </div>
+              <a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">
+                <li class="contact-mount">
+                  <p class="contact-icon icon ion-social-linkedin">LinkedIn</p>
+                </li>
+              </a>
 
-    <!-- FOOTER -->
+              <!-- FIXME will need to be a downloadable link here -->
+              <!-- FIXME will ultimately need to remove the pdf from github -->
+              <a class="contact-link" href="resources/resume.pdf">
+                <li class="contact-mount">
+                  <p class="contact-icon icon ion-social-resume">Resume</p>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div> <!-- end contact-me -->
+      </div> <!-- end container -->
+    </footer>
+
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="resources/js/jquery.singlePageNav.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
