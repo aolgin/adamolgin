@@ -33,6 +33,8 @@
 body {
 	/* TODO: change this color later; */
 	background-color: #fb4d4d;
+	width: 100%;
+	margin: 0;
 }
 
 #banner {
