@@ -32,7 +32,7 @@
     <div class="wrapper">
       <!-- NAV BAR -->
       <header class="top">
-        <span id="nav-brand">Adam Olgin</span>
+        <span id="nav-name">Adam Olgin</span>
         <nav class="navbar-fixed-top top" role="navigation">
           <div class="container">
             <div class="collapse navbar-collapse" id="menu">
@@ -49,57 +49,70 @@
       </header>
 
       <!-- ACTUAL CONTENT -->
-      <div class="section" id="aboutme">
-        <div class="container">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam eget risus sodales, et aliquet purus sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae lacus efficitur lacus varius consectetur. Morbi dolor nunc, gravida vitae semper ut, accumsan sit amet est. Mauris quis diam nec nulla gravida laoreet. Phasellus accumsan luctus lacinia. Donec ultricies tellus vitae nisl scelerisque, sit amet volutpat arcu vehicula. Pellentesque id hendrerit nisi. Integer vitae lacinia diam, quis auctor purus. Sed hendrerit orci vel dolor dapibus, quis bibendum massa finibus. Fusce lectus nunc, placerat sit amet blandit id, egestas nec magna. Donec ante eros, ultrices vel rutrum a, tincidunt eu nulla. Etiam imperdiet posuere purus, finibus mollis dolor. Praesent vitae ullamcorper magna, vel semper lacus. 
-          </p>
-          <p>
-            Mauris eu eleifend massa, sed convallis dui. Donec rhoncus sem consequat euismod consequat. Duis interdum sit amet turpis eu pellentesque. Etiam interdum, arcu quis lobortis sagittis, tellus sem fermentum mi, at facilisis lorem tellus a velit. Mauris pretium orci leo, at maximus diam convallis in. Duis laoreet tempus metus non mollis. Cras ut nibh sem. Donec et sodales neque. Donec faucibus turpis ipsum, eu dignissim elit facilisis eu. Suspendisse vulputate lectus at porttitor malesuada. Aenean efficitur, mi ac viverra tempor, ex risus finibus libero, vitae ornare diam augue eget turpis. Nullam aliquam vehicula purus eu facilisis. Nunc porta, diam eget vulputate porttitor, elit nulla congue ipsum, nec porta nisl turpis non dui. 
-          </p>
-        </div>
-      </div>
+
+
+      <div class="container" id="aboutme">
+        <div id="banner">
+          <img src="resources/images/placeholder-banner.jpg" />
+        </div> <!-- end banner -->
+
+        <div class="mod-box">
+          <img class="left-box" src="resources/images/placeholder-img-300x300.png" />
+          <div class="right-box">
+            <h2 class="box-heading">About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam eget risus sodales, et aliquet purus sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae lacus efficitur lacus varius consectetur. Morbi dolor nunc, gravida vitae semper ut, accumsan sit amet est. Mauris quis diam nec nulla gravida laoreet. Phasellus accumsan luctus lacinia. Donec ultricies tellus vitae nisl scelerisque, sit amet volutpat arcu vehicula. Pellentesque id hendrerit nisi.
+            </p>
+          </div> <!-- end right-box -->
+        </div> <!-- end mod-box -->
+
+        <div class="mod-box">
+          <img class="left-box" src="resources/images/placeholder-img-300x300.png" />
+          <div class="right-box">
+            <h2 class="box-heading">About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam eget risus sodales, et aliquet purus sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae lacus efficitur lacus varius consectetur. Morbi dolor nunc, gravida vitae semper ut, accumsan sit amet est. Mauris quis diam nec nulla gravida laoreet. Phasellus accumsan luctus lacinia. Donec ultricies tellus vitae nisl scelerisque, sit amet volutpat arcu vehicula. Pellentesque id hendrerit nisi.
+            </p>
+          </div> <!-- end right-box -->
+        </div> <!-- end mod-box -->
+      </div> <!-- end container -->
 
       <!-- FOOTER -->
-      <footer id="footer">
-        <p>FOOTER HERE</p>
-        <div class="container">
-          <div class="row" id="contact-me">
-            <div class="contact-icon">
+      <footer>
+        <div class="container" id="footer">
+          <!--<div class="row" id="contact-me">
+            <div class="contact-icon"> -->
               <ul class="contact-list">
 
                 <!-- May need to remove the text from in between the <p> tags -->
-                <a class="contact-link" href="mailto:aolgin@ccs.neu.edu">
-                  <li class="contact-mount">
-                    <p class="contact-icon icon ion-ios7-email">Email</p>
-                  </li>
-                </a>
+                <li class="contact-mount">
+                  <!-- <p class="contact-icon icon ion-ios7-email">Email</p> -->
+                  <a class="contact-link" href="mailto:aolgin@ccs.neu.edu">Email</a>
+                </li>
 
-                <a class="contact-link" href="https://github.com/aolgin">
-                  <li class="contact-mount">
-                    <p class="contact-icon icon ion-social-github">Github</p>
-                  </li>
-                </a>
+                <li class="contact-mount">
+                  <a class="contact-link" href="https://github.com/aolgin">Github</a>
+                  <!-- <p class="contact-icon icon ion-social-github">Github</p>  -->
+                </li>
 
-                <a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">
-                  <li class="contact-mount">
-                    <p class="contact-icon icon ion-social-linkedin">LinkedIn</p>
-                  </li>
-                </a>
+                <li class="contact-mount">
+                  <a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+                  <!-- <p class="contact-icon icon ion-social-linkedin">LinkedIn</p> -->
+                </li>
+                
 
                 <!-- FIXME will need to be a downloadable link here -->
                 <!-- FIXME will ultimately need to remove the pdf from github -->
-                <a class="contact-link" href="resources/resume.pdf">
-                  <li class="contact-mount">
-                    <p class="contact-icon icon ion-social-resume">Resume</p>
-                  </li>
-                </a>
+                <li class="contact-mount">
+                  <a class="contact-link" href="resources/resume.pdf">Resume</a>
+                  <!-- <p class="contact-icon icon ion-social-resume">Resume</p>  -->
+                </li>
               </ul>
-            </div>
-          </div> <!-- end contact-me -->
+           <!-- </div>
+            </div> -->
         </div> <!-- end container -->
       </footer>
-    </div>
+    </div> <!-- end wrapper -->
 
     <!-- FOOTER -->
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>

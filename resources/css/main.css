@@ -23,19 +23,44 @@
 
 }
 
-.sect-c {
-
+.mod-box {
+	position: relative;
+	width: 70%;
+	padding: 1em;
+	margin: 2% 15% 2% 15%;
+	border: 3px outset gray;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: gray;
 }
 
 .mod-box .left-box {
+	position: relative;
+	float: left;
+	margin: 3px 10px 10px 3px;
+}
 
+.mod-box .left-box img {
+	position: relative;
+	margin: 3px 10px 10px 3px;
 }
 
 .mod-box .right-box {
-
+	position: relative;
+	margin: 10px;
 }
 
+.box-heading { font-size: 1.4em;}
+
 body {
+	/* TODO: change this color later; */
 	background-color: #fb4d4d;
-	/*background-color: #64242e; */
+}
+
+#banner {
+	width: 100%;
+}
+
+#banner img {
+	text-align: center;
 }
