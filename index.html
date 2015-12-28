@@ -8,12 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- re-evaluate this later for SEO purposes -->
-    <meta name="keywords" content="Adam, Olgin, adamolgin, aolgin, developer, web, northeastern, neu, computerscience, cs, ccis, compsci">
+    <meta name="keywords" content="Adam, Olgin, adamolgin, aolgin, developer, engineer, software, web, northeastern, neu, computerscience, cs, ccis, compsci">
     <!-- change this to something more my style later -->
     <meta name="description" content="Insert description here">
     <meta name="author" content="Adam Olgin">
 
     <!-- Import stuff! -->
+    <!-- TODO: actually make this! -->
     <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon" />
 
     <!-- CSS and JS links -->
@@ -29,80 +30,82 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <!-- NAV BAR -->
-      <header class="top">
-        <span id="nav-name">Adam Olgin</span>
-        <nav class="navbar-fixed-top top" role="navigation">
-          <div class="container">
-            <div class="collapse navbar-collapse" id="menu">
-              <ul class="nav navbar-nav" id="nav">
-                <li><a href="#">HOME</a>
-                </li>
-                <li><a href="projects.html">PORTFOLIO</a>
-                </li>
-                <li onclick="resumeRedirect()"><a href="resources/resume.txt">RESUME</a></li>
-              </ul>
-            </div>
+    <!-- NAV BAR -->
+    <header class="top">
+      <h1 id="nav-name">Adam Olgin</h1>
+      <nav class="top">
+        <div class="container">
+          <div class="menu">
+            <ul>
+              <li>
+                <a class="highlight" href="#"><b>HOME</b></a>
+              </li>
+              <li>
+                <a class="highlight" href="projects.html"><b>PORTFOLIO</b></a>
+              </li>
+              <li onclick="resumeRedirect()">
+                <a class="highlight" href="resources/resume.txt"><b>RESUME</b></a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
-      <!-- ACTUAL CONTENT -->
-      <div class="container" id="aboutme">
-        <div id="banner">
-          <img src="resources/images/placeholder-banner.jpg" />
-        </div> <!-- end banner -->
+    <!-- ACTUAL CONTENT -->
+    <div class="container" id="aboutme">
+      <div id="banner">
+        <img src="resources/images/placeholder-banner.jpg" />
+      </div> <!-- end banner -->
 
-        <div class="mod-box">
-          <img class="left-box" src="resources/images/placeholder-img-300x300.png" />
-          <div class="right-box">
-            <h2 class="box-heading">About Me</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam eget risus sodales, et aliquet purus sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae lacus efficitur lacus varius consectetur. Morbi dolor nunc, gravida vitae semper ut, accumsan sit amet est. Mauris quis diam nec nulla gravida laoreet. Phasellus accumsan luctus lacinia. Donec ultricies tellus vitae nisl scelerisque, sit amet volutpat arcu vehicula. Pellentesque id hendrerit nisi.
-            </p>
-          </div> <!-- end right-box -->
-        </div> <!-- end mod-box -->
-      </div> <!-- end container -->
-
-      <!-- FOOTER -->
-      <footer>
-        <div class="container" id="footer">
-          <!--<div class="row" id="contact-me">
-            <div class="contact-icon"> -->
-              <ul class="contact-list">
-
-                <!-- May need to remove the text from in between the <p> tags -->
-                <li class="contact-mount">
-                  <!-- <p class="contact-icon icon ion-ios7-email">Email</p> -->
-                  <a class="contact-link" href="mailto:aolgin@ccs.neu.edu">Email</a>
-                </li>
-
-                <li class="contact-mount">
-                  <a class="contact-link" href="https://github.com/aolgin">Github</a>
-                  <!-- <p class="contact-icon icon ion-social-github">Github</p>  -->
-                </li>
-
-                <li class="contact-mount">
-                  <a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
-                  <!-- <p class="contact-icon icon ion-social-linkedin">LinkedIn</p> -->
-                </li>
-                
-
-                <!-- FIXME will need to be a downloadable link here -->
-                <!-- FIXME will ultimately need to remove the pdf from github -->
-                <li class="contact-mount">
-                  <a class="contact-link" href="resources/resume.pdf">Resume</a>
-                  <!-- <p class="contact-icon icon ion-social-resume">Resume</p>  -->
-                </li>
-              </ul>
-           <!-- </div>
-            </div> -->
-        </div> <!-- end container -->
-      </footer>
-    </div> <!-- end wrapper -->
+      <div class="mod-box">
+        <img class="left-box" src="resources/images/placeholder-img-300x300.png" />
+        <div class="right-box">
+          <h2 class="box-heading">About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam eget risus sodales, et aliquet purus sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae lacus efficitur lacus varius consectetur. Morbi dolor nunc, gravida vitae semper ut, accumsan sit amet est. Mauris quis diam nec nulla gravida laoreet. Phasellus accumsan luctus lacinia. Donec ultricies tellus vitae nisl scelerisque, sit amet volutpat arcu vehicula. Pellentesque id hendrerit nisi.
+          </p>
+        </div> <!-- end right-box -->
+      </div> <!-- end mod-box -->
+    </div> <!-- end container -->
 
     <!-- FOOTER -->
+    <footer>
+      <div class="container menu" id="footer">
+        <!--<div class="row" id="contact-me">
+          <div class="contact-icon"> -->
+            <ul class="contact-list">
+
+              <!-- May need to remove the text from in between the <p> tags -->
+              <li class="contact-mount">
+                <!-- <p class="contact-icon icon ion-ios7-email">Email</p> -->
+                <a class="contact-link" href="mailto:aolgin@ccs.neu.edu">Email</a>
+              </li>
+
+              <li class="contact-mount">
+                <a class="contact-link" href="https://github.com/aolgin">Github</a>
+                <!-- <p class="contact-icon icon ion-social-github">Github</p>  -->
+              </li>
+
+              <li class="contact-mount">
+                <a class="contact-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+                <!-- <p class="contact-icon icon ion-social-linkedin">LinkedIn</p> -->
+              </li>
+              
+
+              <!-- FIXME will need to be a downloadable link here -->
+              <!-- FIXME will ultimately need to remove the pdf from github -->
+              <li class="contact-mount">
+                <a class="contact-link" href="resources/resume.pdf">Resume</a>
+                <!-- <p class="contact-icon icon ion-social-resume">Resume</p>  -->
+              </li>
+            </ul>
+         <!-- </div>
+          </div> -->
+      </div> <!-- end container -->
+    </footer>
+
+    <!-- TODO: determine which of these, if any, I need to keep -->
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="resources/js/jquery.singlePageNav.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

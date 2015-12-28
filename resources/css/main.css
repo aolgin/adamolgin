@@ -1,28 +1,4 @@
-/* Navigation menu */
-#header {
-
-}
-
-.section {
-
-}
-
-#aboutme {
-
-}
-
-#projects {
-
-}
-
-#schoolwork {
-
-}
-
-#resume {
-
-}
-
+/* Modular Boxes Styles */
 .mod-box {
 	position: relative;
 	width: 70%;
@@ -51,6 +27,8 @@
 }
 
 .box-heading { font-size: 1.4em;}
+
+/******** END MOD-BOX CSS ********/
 
 body {
 	/* TODO: change this color later; */

@@ -31,21 +31,26 @@
   <body>
     <!-- NAV BAR -->
     <header class="top">
-          <span id="nav-name">Adam Olgin</span>
-    </header>
-    <nav class="navbar-fixed-top top" role="navigation">
-      <div class="container">
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="nav navbar-nav" id="nav">
-            <li><a href="index.html">HOME</a>
-            </li>
-            <li><a href="#">PORTFOLIO</a>
-            </li>
-            <li onclick="resumeRedirect()"><a href="resources/resume.txt">RESUME</a></li>
-          </ul>
+      <h1 id="nav-name">Adam Olgin</h1>
+      <nav class="top">
+        <div class="container">
+          <div class="menu">
+            <ul>
+              <li>
+                <a class="highlight" href="index.html"><b>HOME</b></a>
+              </li>
+              <li>
+                <a class="highlight" href="#"><b>PORTFOLIO</b></a>
+              </li>
+              <li onclick="resumeRedirect()">
+                <a class="highlight" href="resources/resume.txt"><b>RESUME</b></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+
 
     <div id="header">
     </div>
@@ -162,7 +167,7 @@
     
     <!-- FOOTER -->
     <footer>
-      <div class="container" id="footer">
+      <div class="container menu" id="footer">
         <!--<div class="row" id="contact-me">
           <div class="contact-icon"> -->
             <ul class="contact-list">
@@ -196,6 +201,7 @@
       </div> <!-- end container -->
     </footer>
 
+    <!-- TODO: determine which of these, if any, I need to keep -->
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="resources/js/jquery.singlePageNav.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
