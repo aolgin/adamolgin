@@ -1,4 +1,4 @@
-/* Navigation menu */
+/* Navigation menu CSS */
 
 header {
 	right: 0;
@@ -16,33 +16,9 @@ header {
 	color: white;
 }
 
-/*
-ul {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-
-li {
-	float: left;
-	list-style-type: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-*/
-
 .active {
 	background-color:#4CAF50;
 }
-
-/* from http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support */
 
 .menu {
 	float: left;
@@ -83,26 +59,9 @@ li a {
    line-height: 1.3em;
 }
 
-/*
-.menu ul li a:hover {
-   background: #369;
-   color: #fff;
-} */
-
-/*
-.menu ul li a.active,
-.menu ul li a.active:hover {
-   color: #fff;
-   background: #4CAF50;
-   font-weight: bold;
-} */
-
 .menu a.highlight:hover:not(.active) {
     background-color: #111;
 }
-
-/* ***************************** */
-/*  NOTE: If I really plan on keeping this as is, will just consolidate the .menu and #footer css */
 
 footer {
 	position: fixed;

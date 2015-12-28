@@ -1,7 +1,9 @@
+<!-- *************** WILL REVISIT THIS AT ANOTHER POINT. IT IS VERY LOW PRIORITY
+                    AND CAN JUST BE SUBBED OUT WITH THE PDF LINK FOR A WHILE ******** -->
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Adam Olgin - Home</title>
+    <title>Adam Olgin - Resume</title>
 
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -22,6 +24,8 @@
     <!-- Stylesheets!-->
     <link rel="stylesheet" href="resources/css/main.css" />
     <link rel="stylesheet" href="resources/css/nav.css" />
+    <link rel="stylesheet" href="resources/css/resume.css" />
+
     <!-- TODO: are any of these actually needed???
     <link rel="stylesheet" href="resources/css/bootstrap.css" />
     <link rel="stylesheet" href="resources/css/bootstrap-theme.css" />
@@ -38,13 +42,13 @@
           <div class="menu">
             <ul>
               <li>
-                <a class="highlight" href="#"><b>HOME</b></a>
+                <a class="highlight" href="index.html"><b>HOME</b></a>
               </li>
               <li>
                 <a class="highlight" href="portfolio.html"><b>PORTFOLIO</b></a>
               </li>
               <li>
-                <a class="highlight" href="resources/resume.pdf"><b>RESUME</b></a>
+                <a class="highlight" href="#"><b>RESUME</b></a>
               </li>
             </ul>
           </div>
@@ -53,11 +57,7 @@
     </header>
 
     <!-- ACTUAL CONTENT -->
-    <div class="container" id="aboutme">
-      <div id="banner">
-        <img src="resources/images/placeholder-banner.jpg" />
-      </div> <!-- end banner -->
-
+    <div class="container">
       <div class="mod-box">
         <!-- TODO: pick an image of me to put here -->
         <img class="left-box" src="resources/images/placeholder-img-300x300.png" />
@@ -68,6 +68,57 @@
           </p>
         </div> <!-- end right-box -->
       </div> <!-- end mod-box -->
+
+      <div id="resume">
+        <div id="education" class="resume-sect">
+          <h2 class="resume-header">Education</h2>
+          <hr align="center" size="3px" width="50%" color="black">
+          <div>Education content area</div>
+        </div> <!-- end education -->
+
+        <div id="comp-knowledge" class="resume-sect">
+          <h2 class="resume-header">Computer Knowledge</h2>
+          <hr align="center" size="3px" width="50%" color="black">
+          
+          <div id="language-sect">
+            <h3>Languages</h3>
+          </div>
+          <div id="os-sect">
+            <h3>Operation Systems</h3>
+          </div>
+          <div id="app-sect">
+            <h3>Applications</h3>
+          </div>
+          <div id="project-sect">
+            <h3>Personal Projects</h3>
+            <p>Please refer to my <a href="portfolio.html">portfolio page</a> for in-depth information regarding my projects</p>
+          </div>
+        </div> <!-- end comp-knowledge -->
+
+        <div id="work-experience" class="resume-sect">
+          <h2 class="resume-header">Relevant Work Experience</h2>
+          <hr align="center" size="3px" width="50%" color="black">
+          
+          <div id="cimpress-sect">
+            <h3>Cimpress</h3>
+          </div>
+          <div id="pearson-sect">
+            <h3>Pearson Education, Learning Technologies Group</h3>
+          </div>
+          <div id="globe-sect">
+            <h3>Boston Globe Media Partners</h3>
+          </div>
+          <div id="liberty-sect">
+            <h3>Liberty Iron &amp; Metal Holdings, LLC.</h3>
+          </div>
+        </div> <!-- end work-experience -->
+        
+        <div id="interests" class="resume-sect">
+          <h2 class="resume-header">Special Interests &amp; Activities</h2>
+          <hr align="center" size="3px" width="50%" color="black">
+          <div>interests areas</div>
+        </div> <!-- end interests -->
+      </div> <!-- end resume -->
     </div> <!-- end container -->
 
     <!-- FOOTER -->

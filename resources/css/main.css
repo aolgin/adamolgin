@@ -1,4 +1,6 @@
-/* Modular Boxes Styles */
+/* Main CSS File */
+
+/************ Modular Boxes Styles *******/
 .mod-box {
 	position: relative;
 	width: 70%;
@@ -26,13 +28,14 @@
 	margin: 10px;
 }
 
-.box-heading { font-size: 1.4em;}
+.box-heading { font-size: 2em;}
 
 /******** END MOD-BOX CSS ********/
 
 body {
 	/* TODO: change this color later; */
-	background-color: #fb4d4d;
+	/*background-color: #fb4d4d; (Reddish color)*/
+	background-color: #feeba5; /* creamish color */
 	width: 100%;
 	margin: 0;
 }
@@ -48,8 +51,12 @@ body {
 }
 
 .project-heading {
-	font-size: 1.4em;
+	font-size: 2em;
 	margin-left: 15%;
 	margin-bottom: 0;
 	margin-top: 7%;
+}
+
+p {
+	font-size: x-large;
 }
