@@ -4,7 +4,7 @@
 .mod-box {
 	position: relative;
 	width: 70%;
-	padding: 1em;
+	padding: .5em;
 	margin: 2% 15% 2% 15%;
 	border: 3px outset gray;
 	border-radius: 10px;
@@ -18,9 +18,11 @@
 	margin: 3px 10px 10px 3px;
 }
 
-.mod-box .left-box img {
+.mod-box .left-box {
 	position: relative;
 	margin: 3px 10px 10px 3px;
+	border-radius: 10px;
+	border-color: black;
 }
 
 .mod-box .right-box {
@@ -54,9 +56,30 @@ body {
 	font-size: 2em;
 	margin-left: 15%;
 	margin-bottom: 0;
-	margin-top: 7%;
+	margin-top: 3%;
 }
 
 p {
 	font-size: x-large;
+}
+
+.fonty {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.top-header {
+	margin-top: 125px;
+}
+
+/* currently unusued */
+.project-desc {
+
+}
+
+.last-box {
+	margin-bottom: 7%;
 }
