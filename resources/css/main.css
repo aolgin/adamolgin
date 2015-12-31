@@ -32,15 +32,46 @@
 	margin: 10px;
 }
 
+.box-subtitle {
+	font-size: medium;
+	margin-top: 0;
+	color: #222;
+	font-style: italic;
+}
+
 .box-heading {
 	font-size: 1.75em;
 	margin-bottom: 3px;
 }
 
+/* currently unusued */
+.project-desc {
+
+}
+
+.last-box {
+	margin-bottom: 7%;
+}
+
+.icon-tray {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.icon-tray a {
+	top: 0;
+	float: right;
+	height: 50px;
+	position: relative;
+	border-radius: 100%;
+	background-color: #cccccc;
+}
+
 /******** END MOD-BOX CSS ********/
 
 body {
-	/* TODO: change this color later; */
+	/* TODO: may change this color later; */
 	/*background-color: #fb4d4d; (Reddish color)*/
 	background-color: #feeba5; /* creamish color */
 	width: 100%;
@@ -80,26 +111,10 @@ p {
 	text-decoration: none;
 }
 
-.box-subtitle {
-	font-size: medium;
-	margin-top: 0;
-	color: #222;
-	font-style: italic;
-}
-
 h2 {
 	margin-top: 0;
 }
 
 .top-header {
 	margin-top: 125px;
-}
-
-/* currently unusued */
-.project-desc {
-
-}
-
-.last-box {
-	margin-bottom: 7%;
 }

@@ -1,4 +1,6 @@
 Adamolgin.com Source Code
 =========================
 
-My attempt at making a personal website. I'm personally not highly interested in web design, so this website is fairly simplistic, but it does the job that I need to it to do: tell the reader about myself.
+My attempt at making a personal portfolio website. Albeit a static, fairly simplistic site, it should hopefully get the job done and tell potential readers about myself.
+
+At the moment, there are some more interesting and pressing projects I want to work on. I may return to this and spruce it up a bit at a later point, but for now, functionality and basic aesthetic beauty are enough for me.
