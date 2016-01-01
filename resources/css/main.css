@@ -82,6 +82,7 @@ body {
 	width: 100%;
 	text-align: center;
 	background-color: teal;
+	position: relative;
 	background: url('../images/banner.jpg') no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -103,12 +104,16 @@ p {
 	font-size: large;
 }
 
-.fonty {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+a,
+p,
+h1,
+h2,
+h3 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;	
 }
 
-.fonty a {
-	text-decoration: none;
+p a {
+	text-decoration: none;	
 }
 
 h2 {
@@ -117,4 +122,17 @@ h2 {
 
 .top-header {
 	margin-top: 125px;
+}
+
+/* 
+FIXME: fix the appearance and size
+of this text on smaller-than-normal screen sizes
+*/
+#banner h1 {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	font-weight: bold;
+	color: white;
+	font-size: 3em;
 }
