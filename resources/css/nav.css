@@ -78,3 +78,37 @@ footer {
 	overflow: hidden;
 	position: relative;
 }
+
+@media screen and (min-width: 1000px) and (orientation: landscape){
+  #scroll-nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+  }
+
+  #scroll-nav {
+    display: block;
+    float: left;
+    margin-top: 5%;
+    margin-left: 1%;
+    position: fixed;
+    font-size: 14px;
+    overflow: wrap;
+    width: 15%;
+    text-align: left;
+  }
+
+  #scroll-nav ul {
+    padding-left: 10%;
+  }
+
+  #scroll-nav li {
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #scroll-nav {
+    display: none;
+  }
+}

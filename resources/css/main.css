@@ -124,6 +124,10 @@ h2 {
 	margin-top: 125px;
 }
 
+.centered {
+	text-align: center;
+}
+
 /* 
 FIXME: fix the appearance and size
 of this text on smaller-than-normal screen sizes
