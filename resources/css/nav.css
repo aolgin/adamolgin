@@ -87,7 +87,6 @@ footer {
   }
 
   #scroll-nav {
-    display: block;
     float: left;
     margin-top: 5%;
     margin-left: 1%;
@@ -104,11 +103,5 @@ footer {
 
   #scroll-nav li {
     list-style: none;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #scroll-nav {
-    display: none;
   }
 }

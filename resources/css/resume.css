@@ -2,6 +2,7 @@
 
 .resume-sect {
 	text-align: center;
+	padding-top: 2.5%;
 }
 
 h2 {
@@ -17,5 +18,20 @@ h3 {
 		width: 85%;
 		float: right;
 		border-left: 2px solid black;
+	}
+}
+
+.resume-list {
+	float: left;
+	margin-top: 0px;
+}
+
+.resume-box img {
+	width: 99%;
+}
+
+@media screen and (max-width: 1000px) {
+	#scroll-nav {
+		display: none;
 	}
 }

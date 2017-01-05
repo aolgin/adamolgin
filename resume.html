@@ -42,7 +42,7 @@
       </nav>
     </header>
 
-    <div id="scroll-nav" class="side-nav">
+    <div id="scroll-nav" class="side-nav hide-on-mobile">
       	<nav class="left-side-nav">
       		<h3 id="resume-nav">Navigation</h3>
       		<div>
@@ -67,7 +67,14 @@
       						<li><a class="highlight" href="#limco">Liberty Iron &amp; Metal</a></li>
       					</ul>
       				</li>
-      				<li><a class="highlight" href="#Interests">Interests</a></li>
+              <li>
+                <a class="highlight" href="#additional-info">Additional Info</a>
+                <ul>
+                  <li><a class="highlight" href="#interests-box">Interests</a></li>
+                  <li><a class="highlight" href="#references-box">References</a></li>
+                  <li><a class="highlight" href="#download-resume-box">Resume PDF</a></li>
+                </ul>
+              </li>
       			</ul>
       		</div> <!-- end menu -->
       	</nav> <!-- end left-side nav -->
@@ -76,60 +83,204 @@
     <!-- ACTUAL CONTENT -->
     <div class="container">
       <div id="resume">
-        <div id="education" class="resume-sect">
-          <h1 class="resume-header">Education</h1>
+        <div id="education">
+          <h1 class="resume-header resume-sect">Education</h1>
           <hr align="center" size="3px" width="70%" color="black">
-          <div>Education content area</div>
-        </div> <!-- end education -->
+          <div id="neu-edu" class="mod-box resume-box">
+            <div class="right-box">
+              <h2 class="box-heading">Northeastern University</h2>
+              <p class="box-subtitle">Bachelor of Arts in Computer Science, May 2017</p>
+              <p class="project-desc">
+               	<p>Notable Coursework:</p>
+               	<ul class="resume-list">
+              		<li>Web Development</li>
+              		<li>Software Development</li>
+              		<li>Algorithms &amp; Data</li>
+              		<li>Programming Languages</li>
+              		<li>Theory of Computation</li>
+              		<li>Systems &amp; Networks</li>
+              		<li>Object-Oriented Design</li>
+              		<li>Computer Organization</li>
+              		<li>Fundamentals of Computer Science I &amp; II</li>
+              		<li>Logic &amp; Computation</li>
+              		<li>Discrete Structures</li>
+              	</ul>
+              </p>
+            </div>
+	      </div> <!-- end northeastern education box -->
+        </div> <!-- end education --> 
 
-        <div id="knowledge" class="resume-sect">
-          <h1 class="resume-header">Computer Knowledge</h1>
+        <div id="knowledge">
+          <h1 class="resume-header resume-sect">Computer Knowledge</h1>
           <hr align="center" size="3px" width="70%" color="black">
           
           <div id="langs">
-            <h3>Languages</h3>
-          </div>
+            <div id="langs-box" class="mod-box resume-box">
+	            <div class="right-box">
+	              <h2 class="box-heading">Prominent Languages</h2>
+	              <p class="project-desc">
+	               	<ul class="resume-list">
+	            		<li>Java</li>
+	            		<li>C</li>
+	            		<li>Python</li>
+	            		<li>Shell Scripting (Bash)</li>
+	            		<li>JavaScript</li>
+	              	</ul>
+	              </p>
+	            </div>
+	      	</div> <!-- end languages box -->
+          </div> <!-- end languages section -->
+
           <div id="oses">
-            <h3>Operation Systems</h3>
+            <div id="os-box" class="mod-box resume-box">
+	            <div class="right-box">
+	              <h2 class="box-heading">Operating Systems</h2>
+	              <p class="project-desc">
+	               	<ul class="resume-list">
+  	            		<li>Linux</li>
+  	            		<li>Windows</li>
+  	            		<li>OS X</li>
+	              	</ul>
+	              </p>
+	            </div>
+	      	</div> <!-- end Operating Systems box -->
           </div>
+
           <div id="apps">
-            <h3>Applications</h3>
+            <div id="apps-box" class="mod-box resume-box">
+	            <div class="right-box">
+	              <h2 class="box-heading">Application Proficiency</h2>
+	              <p class="project-desc">
+	               	AWS, Graphite, Grafana, Git, JMeter, LoadRunner, N-Able, OTRS Help Desk, Active Directory, VirtualBox, JIRA, Eclipse IDE, Tomcat, Microsoft Word, Methode, Movable Type
+	              </p>
+	            </div>
+	      	</div> <!-- end apps box -->
           </div>
+
           <div id="projects">
-            <h3>Personal Projects</h3>
-            <p>Please refer to my <a href="portfolio.html">portfolio page</a> for in-depth information regarding my projects</p>
+            <div id="langs-box" class="mod-box resume-box">
+	            <div class="right-box">
+	              <h2 class="box-heading">Personal Projects</h2>
+	              <p class="project-desc">
+					        Please refer to my <a href="portfolio.html">portfolio page</a> for in-depth information regarding my projects
+	              </p>
+	            </div>
+	      	</div> <!-- end projects box -->
           </div>
         </div> <!-- end comp-knowledge -->
 
-        <div id="experience" class="resume-sect">
-          <h1 class="resume-header">Relevant Work Experience</h1>
+        <div id="experience">
+          <h1 class="resume-header resume-sect">Relevant Work Experience</h1>
           <hr align="center" size="3px" width="70%" color="black">
           
-          <div id="cimpress">
-            <h3>Cimpress</h3>
+  	      <div id="cimpress">
+  	        <div id="cimpress-box" class="mod-box resume-box">
+              <img class="left-box hide-on-mobile" src="resources/images/cimpress-500x100.png" />
+  	          <div class="right-box">
+  	            <h2 class="box-heading">Cimpress, N.V.</h2>
+  	              <p class="box-subtitle">Dev-Ops Engineering Coop (MCP Payments Team), Jan-Jun 2016</p>
+  	              <p class="project-desc">
+  	                <p>Highlights:</p>
+    	              <ul class="resume-list">
+    	             	  <li>Transferred metrics services to AWS</li>
+    	             	  <li>Implemented metrics alerting system for team</li>
+    	             	  <li>Assisted in formulating new deployment processes</li>
+    	             	  <li>Improved upon existing in-house refund tool</li>
+  	               	</ul>
+  	               </p>
+  	          </div>
+  		      </div> <!-- end cimpress box -->
           </div>
+          
           <div id="pearson">
-            <h3>Pearson Education, Learning Technologies Group</h3>
+  	        <div id="pearson-box" class="mod-box resume-box">
+            	<img class="left-box hide-on-mobile" src="resources/images/pearson-500x100.png" />
+  	          <div class="right-box">
+  	            <h2 class="box-heading">Pearson Education, Learning Technologies Group</h2>
+  	              <p class="box-subtitle">Associate Software Quality Assurance Engineer Co-op, Jan-Jun 2015</p>
+  	              <p class="project-desc">
+  	                <p>Highlights:</p>
+  	                <ul class="resume-list">
+    	             	  <li>Scripted and ran performance tests for several applications</li>
+    	             	  <li>Converted test scripts from LoadRunner to JMeter</li>
+    	             	  <li>Improved upon the in-house JMeter testing harness framework</li>
+  	               	</ul>
+  	               </p>
+  	          </div>
+  		      </div> <!-- end pearson box -->
           </div>
+
           <div id="globe">
-            <h3>Boston Globe Media Partners</h3>
+  	        <div id="globe-box" class="mod-box resume-box">
+              <img class="left-box hide-on-mobile" src="resources/images/bglobe-500x100.png" />
+  	          <div class="right-box">
+  	            <h2 class="box-heading">Boston Globe Media Partners, LLC.</h2>
+  	              <p class="box-subtitle">Maintenance Engineer Co-op, Jan-Jun 2014</p>
+  	              <p class="project-desc">
+  	                <p>Highlights:</p>
+  	                <ul class="resume-list">
+    	             	  <li>Assisted in launch of the redesigned Boston.com</li>
+    	             	  <li>Implemented and maintained new features into Boston.com's blogs</li>
+    	             	  <li>Discovered and fixed bugs found on both Boston.com and BostonGlobe.com</li>
+  	               	</ul>
+  	               </p>
+  	          </div>
+  		      </div> <!-- end globe box -->
           </div>
+
           <div id="limco">
-            <h3>Liberty Iron &amp; Metal Holdings, LLC.</h3>
+  	        <div id="limco-box" class="mod-box resume-box">
+              <img class="left-box hide-on-mobile" src="resources/images/limco-500x100.png" />
+  	          <div class="right-box">
+  	            <h2 class="box-heading">Liberty Iron &amp; Metal Holdings, LLC.</h2>
+  	              <p class="box-subtitle">Junior System Administrator, May-Aug 2012, May-Aug 2013</p>
+  	              <p class="project-desc">
+  	                <p>Highlights:</p>
+  	                <ul class="resume-list">
+    	             	  <li>Set-up and maintained the company's OTRS Help Desk software implementation</li>
+    	             	  <li>Trained users how to properly use the OTRS system</li>
+    	             	  <li>Assisted in company's trasition to a Microsoft Exchange Server</li>
+  	               	  <li>Provided support for five local sites and seven remote locations, either in person or via remote monitoring software</li>
+                      <li>Serviced multiple computers, printers, barcode scanners, and ID scanners</li>
+                      <li>Designed network topology maps for many of the company's locations</li>
+                    </ul>
+  	               </p>
+  	          </div>
+  		      </div> <!-- end limco box -->
           </div>
         </div> <!-- end work-experience -->
         
-        <div id="interests" class="resume-sect">
-          <h1 class="resume-header">Special Interests &amp; Activities</h1>
+        <div id="additional-info">
+          <h1 class="resume-header resume-sect">Additional Information</h1>
           <hr align="center" size="3px" width="70%" color="black">
-          <div>interests areas</div>
-        </div> <!-- end interests -->
+          <div id="interests-box" class="mod-box resume-box">
+            <div class="right-box">
+              <h2 class="box-heading">Special Interests, Skills, &amp; Activities</h2>
+              <p class="project-desc">
+                <ul>
+                    <li>Working proficiency in Russian and Hebrew</li>
+                    <li>Highly documentation-oriented</li>
+                    <li>Able to type proficiently using a QWERTY, Dvorak, and Cyrillic (Russian) keyboard</li>
+                    <li>Archery</li>
+                </ul>
+              </p>
+            </div>
+          </div> <!-- end interests-box -->
+          <div id="references-box" class="mod-box resume-box">
+            <div class="right-box">
+              <h2 class="box-heading">References</h2>
+              <p class="box-subtitle">References will be furnished upon request</p>
+            </div>
+          </div> <!-- end references-box -->
+          <div id="download-resume-box" class="mod-box resume-box">
+            <div class="right-box">
+              <h2 class="box-heading">Downloadable Version</h2>
+              <p class="box-subtitle">For a downloadable copy, see <a href="resources/resume.pdf">here</a></p>
+            </div>
+          </div> <!-- end references-box -->
+        </div> <!-- end additional-info -->
       </div> <!-- end resume -->
     </div> <!-- end container -->
-
-    <div class="near-footer">
-    	<p class="highlight">For a downloadable copy, see <a href="resources/resume.pdf">here</a></p>
-    </div> <!-- end near-footer -->
 
     <!-- FOOTER -->
     <footer>
