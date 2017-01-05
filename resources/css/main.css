@@ -106,6 +106,8 @@ p {
 
 a,
 p,
+ul,
+li,
 h1,
 h2,
 h3 {
@@ -124,6 +126,10 @@ h2 {
 	margin-top: 125px;
 }
 
+.centered {
+	text-align: center;
+}
+
 /* 
 FIXME: fix the appearance and size
 of this text on smaller-than-normal screen sizes
@@ -135,4 +141,15 @@ of this text on smaller-than-normal screen sizes
 	font-weight: bold;
 	color: white;
 	font-size: 3em;
+}
+
+@media screen and (max-width: 750px) {
+	.hide-on-mobile {
+		display: none;
+	}
+}
+
+.container {
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
