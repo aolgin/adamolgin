@@ -49,10 +49,6 @@
 
 }
 
-.last-box {
-	margin-bottom: 7%;
-}
-
 .icon-tray {
 	position: absolute;
 	top: 0;
@@ -97,7 +93,6 @@ body {
 	font-size: 1.75em;
 	margin-left: 15%;
 	margin-bottom: 0;
-	margin-top: 3%;
 }
 
 p {
@@ -123,17 +118,13 @@ h2 {
 }
 
 .top-header {
-	margin-top: 125px;
+	margin-top: 7%;
 }
 
 .centered {
 	text-align: center;
 }
 
-/* 
-FIXME: fix the appearance and size
-of this text on smaller-than-normal screen sizes
-*/
 #banner h1 {
 	position: absolute;
 	top: 50%;
@@ -143,9 +134,29 @@ of this text on smaller-than-normal screen sizes
 	font-size: 3em;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
 	.hide-on-mobile {
 		display: none;
+	}
+  
+  .move-on-mobile {
+		position: relative;
+		float: left;
+	}
+
+	.mod-box {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.top-header {
+		margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.fit-on-mobile {
+		width: 95%;
 	}
 }
 
