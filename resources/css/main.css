@@ -101,6 +101,8 @@ p {
 
 a,
 p,
+ul,
+li,
 h1,
 h2,
 h3 {
@@ -119,6 +121,10 @@ h2 {
 	margin-top: 7%;
 }
 
+.centered {
+	text-align: center;
+}
+
 #banner h1 {
 	position: absolute;
 	top: 50%;
@@ -128,9 +134,12 @@ h2 {
 	font-size: 3em;
 }
 
-/* REMOVE BEFORE COMMITTING */
 @media screen and (max-width: 700px) {
-	.move-on-mobile {
+	.hide-on-mobile {
+		display: none;
+	}
+  
+  .move-on-mobile {
 		position: relative;
 		float: left;
 	}
@@ -149,4 +158,9 @@ h2 {
 	.fit-on-mobile {
 		width: 95%;
 	}
+}
+
+.container {
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
