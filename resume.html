@@ -12,35 +12,44 @@
     <meta name="description" content="The personal portfolio site of Adam Olgin.">
     <meta name="author" content="Adam Olgin">
 
-    <!-- TODO: actually make this! -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81685324-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-81685324-1');
+    </script>
+
     <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon" />
 
     <!-- Stylesheets!-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/main.css" />
     <link rel="stylesheet" href="resources/css/nav.css" />
     <link rel="stylesheet" href="resources/css/resume.css" />
   </head>
 
   <body>
-    <!-- NAV BAR -->
-    <header class="top">
-      <h1 id="nav-name">Resume</h1>
-      <nav class="top">
-        <div class="menu">
-          <ul>
-            <li>
-              <a class="highlight" href="index.html"><b>HOME</b></a>
-            </li>
-            <li>
-              <a class="highlight" href="portfolio.html"><b>PORTFOLIO</b></a>
-            </li>
-            <li>
-              <a class="highlight" href="#"><b>RESUME</b></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="ml-2 navbar-brand" href="#">Adam Olgin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div id="scroll-nav" class="side-nav hide-on-mobile">
       	<nav class="left-side-nav">
@@ -79,7 +88,7 @@
       		</div> <!-- end menu -->
       	</nav> <!-- end left-side nav -->
     </div> <!-- end scroll-nav -->
-    
+
     <!-- ACTUAL CONTENT -->
     <div class="container">
       <div id="resume">
@@ -108,12 +117,12 @@
               </p>
             </div>
 	      </div> <!-- end northeastern education box -->
-        </div> <!-- end education --> 
+        </div> <!-- end education -->
 
         <div id="knowledge">
           <h1 class="resume-header resume-sect">Computer Knowledge</h1>
           <hr align="center" size="3px" width="70%" color="black">
-          
+
           <div id="langs">
             <div id="langs-box" class="mod-box resume-box">
 	            <div class="right-box">
@@ -172,7 +181,7 @@
         <div id="experience">
           <h1 class="resume-header resume-sect">Relevant Work Experience</h1>
           <hr align="center" size="3px" width="70%" color="black">
-          
+
   	      <div id="cimpress">
   	        <div id="cimpress-box" class="mod-box resume-box">
               <img class="left-box hide-on-mobile" src="resources/images/cimpress-500x100.png" />
@@ -191,7 +200,7 @@
   	          </div>
   		      </div> <!-- end cimpress box -->
           </div>
-          
+
           <div id="pearson">
   	        <div id="pearson-box" class="mod-box resume-box">
             	<img class="left-box hide-on-mobile" src="resources/images/pearson-500x100.png" />
@@ -249,7 +258,7 @@
   		      </div> <!-- end limco box -->
           </div>
         </div> <!-- end work-experience -->
-        
+
         <div id="additional-info">
           <h1 class="resume-header resume-sect">Additional Information</h1>
           <hr align="center" size="3px" width="70%" color="black">
@@ -283,26 +292,29 @@
     </div> <!-- end container -->
 
     <!-- FOOTER -->
-    <footer>
-      <div class="menu" id="footer">
-        <ul>
-          <li>
-            <a href="mailto:adam.olgin@gmail.com">Email</a>
-          </li>
 
-          <li>
-            <a href="https://github.com/aolgin">Github</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-bottom bg-dark">
+      <div>
+        <ul class="navbar-nav mr-auto justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:adam.olgin@gmail.com">Email</a>
           </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/aolgin">Github</a>
           </li>
-          
-          <li>
-            <a href="resources/resume.pdf">Resume</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources/resume.pdf">Resume</a>
           </li>
         </ul>
-      </div> <!-- end menu -->
+      </div>
+    </nav>
+    <footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </footer>
   </body>
 </html>

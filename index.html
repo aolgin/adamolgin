@@ -9,76 +9,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- re-evaluate this later for SEO purposes -->
     <meta name="keywords" content="Adam, Olgin, adamolgin, aolgin, developer, engineer, software, web, northeastern, neu, computerscience, cs, ccis, compsci">
-    <!-- change this to something more my style later -->
     <meta name="description" content="The personal portfolio site of Adam Olgin.">
     <meta name="author" content="Adam Olgin">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81685324-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <!-- TODO: actually make this! -->
+      gtag('config', 'UA-81685324-1');
+    </script>
+
     <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon" />
 
-    <!-- Stylesheets!-->
+    <!-- Stylesheets -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/main.css" />
     <link rel="stylesheet" href="resources/css/nav.css" />
   </head>
 
   <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="ml-2 navbar-brand" href="#">Adam Olgin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- NAV BAR -->
-    <header class="top">
+<!--     <header class="top">
       <h1 id="nav-name">Adam Olgin</h1>
-      <nav class="top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="menu">
-          <ul>
-            <li>
-              <a class="highlight" href="#"><b>HOME</b></a>
+          <ul class="nav justify-content-center navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="highlight nav-link" href="#"><b>HOME</b></a>
             </li>
-            <li>
-              <a class="highlight" href="portfolio.html"><b>PORTFOLIO</b></a>
+            <li class="nav-item">
+              <a class="highlight nav-link" href="portfolio.html"><b>PORTFOLIO</b></a>
             </li>
-            <li>
-              <a class="highlight" href="resume.html"><b>RESUME</b></a>
+            <li class="nav-item">
+              <a class="highlight nav-link" href="resume.html"><b>RESUME</b></a>
             </li>
           </ul>
         </div>
       </nav>
-    </header>
+    </header> -->
+
+  <div class="hidden-sm">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="resources/images/banner.jpg" alt="Welcome!">
+        </div>
+      </div>
+    </div>
+  </div>
 
     <div id="aboutme" class="container">
-      <div id="banner" class="hide-on-mobile">
+      <!-- <div id="banner" class="hide-on-mobile">
         <img src="resources/images/banner.jpg" />
         <h1 class="hide-on-mobile">Welcome!</h1>
-      </div> <!-- end banner -->
-      <div class="mod-box">
-        <img class="left-box fit-on-mobile" src="resources/images/adam-about-300x300.jpg" />
-        <div class="right-box">
-          <h2 class="box-heading">About Me</h2>
-          <p>
-            I'm a recent computer science graduate at Northeastern University. Admittedly, I'm still somewhat of a newcomer in the development world but am eager to expand my knowledge. I'm a sucker for CLIs and good documentation, enjoy trying to learn things on my own, and like solving problems.
-          </p>
-        </div> <!-- end right-box -->
-      </div> <!-- end mod-box -->
+      </div> --> <!-- end banner -->
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="mod-box">
+          <img class="left-box fit-on-mobile" src="resources/images/adam-about-300x300.jpg" />
+          <div class="right-box">
+            <h2 class="box-heading">About Me</h2>
+            <p>
+              I'm a recent computer science graduate at Northeastern University. Admittedly, I'm still somewhat of a newcomer in the development world but am eager to expand my knowledge. I'm a sucker for CLIs and good documentation, enjoy trying to learn things on my own, and like solving problems.
+            </p>
+          </div> <!-- end right-box -->
+        </div> <!-- end mod-box -->
+      </div>
     </div> <!-- end container -->
 
     <!-- FOOTER -->
-    <footer>
-      <div class="menu" id="footer">
-        <ul>
-          <li>
-            <a href="mailto:adam.olgin@gmail.com">Email</a>
-          </li>
 
-          <li>
-            <a href="https://github.com/aolgin">Github</a>
+    <nav class="navbar navbar-expand-xs navbar-dark fixed-bottom bg-dark">
+      <div>
+        <ul class="navbar-nav mr-auto justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:adam.olgin@gmail.com">Email</a>
           </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/aolgin">Github</a>
           </li>
-          
-          <li>
-            <a href="resources/resume.pdf">Resume</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/adam-olgin-43a79665">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources/resume.pdf">Resume</a>
           </li>
         </ul>
-      </div> <!-- end footer menu -->
+      </div>
+    </nav>
+    <footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </footer>
   </body>
 </html>
